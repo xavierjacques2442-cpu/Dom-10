@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My DOM Interaction Lab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 id="page-title">Welcome to My DOM Lab</h1>
+    <p id="subtitle">Press the buttons to interact with the page!</p>
+
+    <div class="controls">
+        <button id="change-title-btn">Switch Title</button>
+
+        <button id="color-btn">Surprise Background</button>
+
+        <button id="add-card-btn">Create Card</button>
+
+        <button id="clear-cards-btn">Erase All Cards</button>
+
+        <button id="subtitle-color-btn">Change Subtitle Color</button>
+
+        <button id="font-bigger-btn">Increase Font Size</button>
+
+        <button id="font-smaller-btn">Decrease Font Size</button>
+
+        <button id="toggle-cards-btn">Hide/Show Cards</button>
+        
+        <button id="rotate-title-btn">Rotate Title</button>
+    </div>
+
+    <div class="input-row">
+        <input id="custom-text-input" placeholder="Type something for your card...">
+        <button id="add-custom-card-btn">Add Personalized Card</button>
+    </div>
+
+    <div id="cards-container"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
